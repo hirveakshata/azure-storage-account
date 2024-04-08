@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ehrssa12"
+  annotations:
+    github.com/project-slug: hirveakshata/azure-sa-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "ehrssa12"
+  description: "Creating storage account for EHRS app"
+  tags: ["azure-storage"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
